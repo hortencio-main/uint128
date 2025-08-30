@@ -1,4 +1,4 @@
-package main
+package uin128
 
 import (
     "math/bits"
