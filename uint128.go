@@ -133,9 +133,9 @@ func (a Uint128) ShiftRight(n uint) Uint128 {
 
 func (u Uint128) String() (s string) {
     if u.H > 0 {
-        s = fmt.Sprintf("0x%x%016x", u.H, u.L)
+        s = fmt.Sprintf("%x%016x", u.H, u.L)
     } else {
-        s = fmt.Sprintf("0x%x", u.L)
+        s = fmt.Sprintf("%x", u.L)
     }
     
     return s
